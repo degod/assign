@@ -273,6 +273,42 @@ margin-left: 300px;
 font-size: 11px;
 }
 
+
+@media only screen and (max-width: 360px) {
+  body{
+    padding: 10px;
+  }
+  .ordinary {
+    display: block;
+    position: relative;
+    left: 0px;
+    width: 100vw;
+    margin-left: 0px;
+  }
+  .panel {
+    width: 100vw;
+  }
+  .container{
+    display: block;
+    height: 150px;
+  }
+  nav {
+    display: block;
+  }
+  ul {
+    display: block;
+    width: 300px;
+    height: 100px;
+  }
+  .Submit, .card-input {
+    width: 100vw;
+    width: 100vw;
+  }
+  .input-container, .information div {
+    display: block;
+  }
+}
+
 @media only screen and (min-width: 600px) {
   .container {
     padding-left: 40px;
@@ -316,3 +352,4 @@ font-size: 11px;
       }
   }
 }
+
